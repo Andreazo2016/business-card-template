@@ -1,0 +1,18 @@
+{
+  "name": "business-card-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf output && mkdir -p output && node src/index.js",
+    "cluster": "rm -rf output && mkdir -p output && node src/puppeteerCluster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^9.0.0",
+    "puppeteer-cluster": "^0.22.0",
+    "uuid": "^8.3.2"
+  }
+}
